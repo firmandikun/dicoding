@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.jumbotron {
+  background-color: #00a2c6;
+  padding: 60px;
+  text-align: center;
+  color: white;
+}
+#content {
+  float: left;
+  width: 75%;
+}
+nav {
+  background-color: #00a2c6;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+}
+
+header {
+  display: inline;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-family: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+.featured-image {
+  width: 100%;
+  object-fit: cover;
+  max-height: 300px;
+  object-position: center;
+}
+
+h2,
+h3 {
+  color: #00a2c6;
+}
+
+.profile {
+  text-align: center;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.profile img {
+  width: 200px;
+}
+.conten_profile {
+  text-align: left;
+}
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+  text-align: center;
+  font-weight: bold;
+  box-sizing: content-box;
+}
+
+.card {
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Responsive  */
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+  nav {
+    background-color: #00a2c6;
+    position: sticky;
+    top: 0;
+    padding: px;
+  }
+}
